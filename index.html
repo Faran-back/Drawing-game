@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>ASMR Draw Kids</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+<div id="game-container">
+
+
+    <!-- Top UI -->
+    <div class="top-bar">
+
+
+        <button class="icon-btn" id="menu-btn">
+            ☰
+        </button>
+
+
+        <div class="level-selection">
+
+            <div class="level-text">
+                LEVEL 1
+            </div>
+
+            <div class="instruction">
+                Trace the dots 
+            </div>
+
+
+        </div>
+
+
+        <button class="icon-btn" id="restart-btn">
+            ↻
+        </button>
+
+
+    </div>
+
+
+
+    <!-- Drawing Area -->
+    <div id="drawing-area">
+
+
+        <!-- Guide dots and drawing happen here -->
+        <canvas id="gameCanvas">
+
+        </canvas>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- Tools -->
+
+    <div class="tools">
+
+
+        <button id="pencil-tool">
+            ✏️
+        </button>
+
+
+        <button id="eraser-tool">
+            🧽
+        </button>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- Color Palette -->
+
+    <div class="color-palette">
+
+
+        <button class="color"
+                data-color="#ff6b81"
+                style="background:#ff6b81;">
+        </button>
+
+
+        <button class="color"
+                data-color="#ffd93d"
+                style="background:#ffd93d;">
+        </button>
+
+
+        <button class="color"
+                data-color="#6bcBff"
+                style="background:#6bcBff;">
+        </button>
+
+
+        <button class="color"
+                data-color="#9b5de5"
+                style="background:#9b5de5;">
+        </button>
+
+
+        <button class="color"
+                data-color="#55efc4"
+                style="background:#55efc4;">
+        </button>
+
+
+        <button class="color"
+                data-color="#222222"
+                style="background:#222222;">
+        </button>
+
+
+    </div>
+
+
+    
+
+
+
+</div>
+
+
+
+
+<script src="main.js"></script>
+
+
+</body>
+
+</html>
